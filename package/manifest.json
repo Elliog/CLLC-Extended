@@ -1,0 +1,10 @@
+{
+  "name": "CLLC_Extended",
+  "version_number": "1.0.0",
+  "website_url": "https://github.com/Elliog/CLLC-Extended",
+  "description": "Add-on for Creature Level & Loot Control: 24 combat modifiers, creature inspection, per-star colours and a star counter. Built on CreatureManager and StarLevelSystem. Young, AI-written project: use at your own risk.",
+  "dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.2351",
+    "Smoothbrain-CreatureLevelAndLootControl-5.0.7"
+  ]
+}
