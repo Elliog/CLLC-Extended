@@ -4,7 +4,7 @@
 
 A Valheim add-on for [Creature Level & Loot Control](https://valheim.hexium.gg/mods/Smoothbrain/CreatureLevelAndLootControl)
 (CLLC): creature inspection, per-star colours, a star counter and 24 combat modifiers adapted from
-CreatureManager. Published on Hexium as `Elliog-CLLC_Extended`.
+CreatureManager. Published on Hexium as `TeamVierge-CLLC_Extended` (team TeamVierge, author Elliog).
 
 > **Young project, use at your own risk.** The code was written with an AI coding assistant
 > (Claude), directed and play-tested by its author on a private server. Expect bugs and back up your
@@ -32,7 +32,7 @@ dotnet build -c Release -p:ValheimDir="/path/to/Valheim" -p:BepInExDir="/path/to
 ```
 
 `scripts/package.sh` builds with warnings as errors, checks that `PluginInfo.cs` and
-`package/manifest.json` have the same version, and writes `dist/Elliog-CLLC_Extended-<version>.zip`,
+`package/manifest.json` have the same version, and writes `dist/TeamVierge-CLLC_Extended-<version>.zip`,
 the format Hexium and Thunderstore expect. It passes its arguments to `dotnet build`.
 
 To release: bump `PluginInfo.Version` and `package/manifest.json` (ServerSync then requires every

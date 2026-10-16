@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Builds CLLC Extended and the Hexium/Thunderstore package: dist/Elliog-CLLC_Extended-<version>.zip
+# Builds CLLC Extended and the Hexium/Thunderstore package: dist/TeamVierge-CLLC_Extended-<version>.zip
 # Usage: scripts/package.sh [extra dotnet build arguments, e.g. -p:ValheimDir=/path/to/Valheim]
 set -euo pipefail
 
@@ -14,7 +14,7 @@ fi
 
 dotnet build "$root/CLLC_Extended.csproj" -c Release -warnaserror "$@"
 
-archive="$root/dist/Elliog-CLLC_Extended-$version.zip"
+archive="$root/dist/TeamVierge-CLLC_Extended-$version.zip"
 mkdir -p "$root/dist"
 python3 - "$root" "$archive" <<'PY'
 import sys
